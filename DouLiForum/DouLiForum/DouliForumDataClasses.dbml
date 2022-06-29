@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DouLiForum_Database" Class="DouliForumDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DouLiForum_Database.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DouLiForum_DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.admin_Table" Member="admin_Table">
+    <Type Name="admin_Table">
+      <Column Name="admin_ID" Type="System.String" DbType="NChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="admin_nickname" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="admin_password" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.user_Table" Member="user_Table">
+    <Type Name="user_Table">
+      <Column Name="user_ID" Type="System.String" DbType="NChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="user_nickname" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_password" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.attent_Table" Member="attent_Table">
+    <Type Name="attent_Table">
+      <Column Name="attention_ID" Type="System.String" DbType="NChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="userID_attention_CL" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="user_attention_to_ID" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.comment_Table" Member="comment_Table">
+    <Type Name="comment_Table">
+      <Column Name="comment_ID" Type="System.String" DbType="NChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="comment_post_ID" Type="System.String" DbType="NChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="comment_user_ID" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="comment_content" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="comment_time" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.post_Table" Member="post_Table">
+    <Type Name="post_Table">
+      <Column Name="post_ID" Type="System.String" DbType="NChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="post_user_ID" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="post_content" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="post_time" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

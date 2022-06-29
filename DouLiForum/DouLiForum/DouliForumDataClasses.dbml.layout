@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DouliForumDataClasses">
+  <DataContextMoniker Name="/DouliForumDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="567c0178-11d8-4187-b4ef-0ea25e4f8aad" absoluteBounds="0.75, 1.125, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/DouliForumDataClassesDataContext/admin_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4dde41c1-7e33-47b3-8b30-29d5367e5f22" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc512f2c-007b-4965-aafc-469246ca879d" absoluteBounds="1.125, 4.875, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/DouliForumDataClassesDataContext/user_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e2326f1-5acf-4276-af4d-23cf97dbddbe" absoluteBounds="1.1400000000000001, 5.335, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cdd70742-76e5-47dc-a286-74a98dffe2bd" absoluteBounds="4.625, 1.625, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/DouliForumDataClassesDataContext/attent_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="63e7aa74-f06b-4cd6-a342-5a97c7a7537a" absoluteBounds="4.64, 2.085, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b2c32d4b-5a95-4bf3-9a61-b6dad15bdbb7" absoluteBounds="4.75, 3.75, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/DouliForumDataClassesDataContext/comment_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9204ff9-5f83-42d7-837c-5277d7f41112" absoluteBounds="4.765, 4.21, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b830dd00-1c91-4c1f-aa82-98f4c55914ca" absoluteBounds="4.75, 6.375, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/DouliForumDataClassesDataContext/post_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b92feb5-1f99-4cfc-aefc-551025b89f10" absoluteBounds="4.765, 6.835, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
